@@ -13,3 +13,7 @@ body, html {
     --color-bgdark3: #211f1f;
     --color-ligthbrown: #efdbc0;
 }
+
+/* .div-profile {
+  @apply bg-bgdark2 border border-zinc-800 rounded-xl p-6 shadow-md;
+} */
