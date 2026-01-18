@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 body, html {
@@ -6,7 +7,9 @@ body, html {
 }
 @theme {
     --font-pacifico: "Pacifico", cursive;
+    --font-raleway: "Raleway", sans-serif;
     --color-bgdark: #0d0d0d;
     --color-bgdark2: #191817;
+    --color-bgdark3: #211f1f;
     --color-ligthbrown: #efdbc0;
 }
