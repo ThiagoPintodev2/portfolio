@@ -1,8 +1,8 @@
 
 function AboutMeSection() {
   return (
-    <div>
-      
+    <div className={`w-[70%] bg-bgdark2 rounded-3xl`}>
+      ola about me
     </div>
   )
 }
