@@ -1,7 +1,22 @@
 import profileImage from "@/assets/profileImage.jpg";
 import { Button } from "@/components/ui/button";
+import { TfiFacebook } from "react-icons/tfi";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 function ProfileAside() {
+  const socialMediaData = [
+    {
+      SocialMediaIcon: <TfiFacebook size={30} />,
+    },
+    {
+      SocialMediaIcon: <FaLinkedinIn />,
+    },
+    {
+      SocialMediaIcon: <FaGithub />,
+    },
+  ];
+
   return (
     <div
       className={`flex flex-col w-[30%] h-[90vh] bg-[#232120] rounded-3xl items-center`}
@@ -23,35 +38,23 @@ function ProfileAside() {
           Front End Developer
         </p>
       </div>
-      <div className={`flex gap-1`}>
-        <Button
-          className={`w-[7rem] h-[6rem] flex items-center justify-center bg-[#232120] rounded-l-2xl
-                border border-white/5 shadow-[5px_5px_15px_rgba(0,0,0,0.4),-1px_-1px_2px_rgba(255,255,255,0.05)]
-                text-gray-400 hover:text-[#dcc7a1] hover:shadow-[inset_2px_2px_5px_rgba(0,0,0,0.5)]`}
-        >
-          teste
-        </Button>
-        <Button
-          className={`w-[6rem] h-[6rem] flex items-center justify-center bg-[#232120] 
-                border border-white/5 shadow-[5px_5px_15px_rgba(0,0,0,0.4),-1px_-1px_2px_rgba(255,255,255,0.05)]
-                text-gray-400 hover:text-[#dcc7a1] hover:shadow-[inset_2px_2px_5px_rgba(0,0,0,0.5)]`}
-        >
-          teste
-        </Button>
-        <Button
-          className={`w-[6rem] h-[6rem] flex items-center justify-center bg-[#232120] 
-                border border-white/5 shadow-[5px_5px_15px_rgba(0,0,0,0.4),-1px_-1px_2px_rgba(255,255,255,0.05)]
-                text-gray-400 hover:text-[#dcc7a1] hover:shadow-[inset_2px_2px_5px_rgba(0,0,0,0.5)]`}
-        >
-          teste
-        </Button>
-        <Button
-          className={`w-[7rem] h-[6rem] flex items-center justify-center bg-[#232120] rounded-r-2xl
-                border border-white/5 shadow-[5px_5px_15px_rgba(0,0,0,0.4),-1px_-1px_2px_rgba(255,255,255,0.05)]
-                text-gray-400 hover:text-[#dcc7a1] hover:shadow-[inset_2px_2px_5px_rgba(0,0,0,0.5)]`}
-        >
-          teste
-        </Button>
+      <div className={`flex gap-1 mt-[2rem]`}>
+        {socialMediaData.map((el, i) => (
+          <Button
+            className={
+              i === 0
+                ? `w-[7rem] h-[6rem] flex items-center justify-center bg-[#1f1d1d] 
+                rounded-l-3xl border border-white/5 shadow-xl/20 cursor-pointer`
+                : i === 2
+                  ? `w-[7rem] h-[6rem] flex items-center justify-center bg-[#1f1d1d] 3
+                  rounded-r-3xl border border-white/5 shadow-xl/20 cursor-pointer`
+                  : `w-[7rem] h-[6rem] flex items-center justify-center bg-[#1f1d1d] 
+                  rounded-l-3xl border border-white/5 rounded-md shadow-xl/20 cursor-pointer`
+            }
+          >
+            {el.SocialMediaIcon}
+          </Button>
+        ))}
       </div>
     </div>
   );
