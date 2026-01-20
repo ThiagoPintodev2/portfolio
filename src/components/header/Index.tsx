@@ -6,19 +6,19 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 function Header() {
   return (
-    <div className={`flex justify-around items-center pt-[5rem]`}>
-      <div className={`text-ligthbrown font-pacifico text-[4.5rem]`}>
+    <div className={`flex flex-col justify-center items-center pt-[4rem]`}>
+      <div className={`text-ligthbrown font-pacifico text-[2.5rem]`}>
         {"< Hello, I'm Thiago />"}
       </div>
       <div
-        className={`flex gap-12 w-[52rem] justify-center items-center h-[12rem] bg-bgdark2 rounded-2xl`}
+        className={`flex gap-8 w-[100%] justify-center mt-[2rem] items-center bg-bgdark2`}
       >
-        <NavComponentesIcons value={"Home"} img={<PiHouseLine size={22} />} />
-        <NavComponentesIcons value={"Resume"} img={<LuBookAudio size={22} />} />
-        <NavComponentesIcons value={"Work"} img={<BsBriefcase size={22} />} />
+        <NavComponentesIcons value={"Home"} img={<PiHouseLine size={15} />} />
+        <NavComponentesIcons value={"Resume"} img={<LuBookAudio size={15} />} />
+        <NavComponentesIcons value={"Work"} img={<BsBriefcase size={15} />} />
         <NavComponentesIcons
           value={"Contact"}
-          img={<MdOutlinePhoneInTalk size={22} />}
+          img={<MdOutlinePhoneInTalk size={15} />}
         />
       </div>
     </div>

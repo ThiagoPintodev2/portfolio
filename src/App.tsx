@@ -7,7 +7,7 @@ function App() {
   return (
     <div className={`bg-bgdark w-full h-[100%]`}>
       <Header />
-      <Main />
+      {/* <Main /> */}
       <div>ola</div>
     </div>
   )
