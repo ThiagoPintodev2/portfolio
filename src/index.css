@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-pacifico: "Pacifico", cursive;
+  --font-raleway: "Raleway", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --color-bgdark: #0d0d0d;
+  --color-bgdark2: #191817;
+  --color-bgdark3: #211f1f;
+  --color-ligthbrown: #efdbc0;
+  --color-mediumbrown: #3c362f;
+  --color-darkbrown: #3c3730;
+  --breakpoint-3xl: 55rem;
+}
+
+body,
+html {
+  font-size: 62.5%;
+}
+
+svg {
+  width:  23px;
+  height: 23px;
+}
+
+/* .div-profile {
+  @apply bg-bgdark2 border border-zinc-800 rounded-xl p-6 shadow-md;
+} */
