@@ -41,7 +41,7 @@ function ProfileAside() {
       </div>
       <div className={`flex gap-1 mt-[2rem] w-[90%] h-[10vh]`}>
         {socialMediaData.map((el, i) => (
-          <Button key={i}
+          <Button variant={"default"} key={i}
             className={
               i === 0
                 ? `w-[33%] h-[60%] flex items-center justify-center bg-[#1f1d1d] 
@@ -53,7 +53,9 @@ function ProfileAside() {
                   rounded-l-3xl border border-white/5 rounded-md shadow-xl/20 cursor-pointer`
             }
           >
-            {el.SocialMediaIcon}
+           <div>
+             {el.SocialMediaIcon}
+           </div>
           </Button>
         ))}
       </div>

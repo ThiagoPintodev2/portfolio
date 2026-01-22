@@ -1,3 +1,5 @@
+import TecnologysIcons from "../TecnologysIcons";
+
 function TecnologysSection() {
   return (
     <div className={`div-about-me bg-[#232120]`}>
@@ -24,7 +26,7 @@ function TecnologysSection() {
         </p>
       </div>
       <div>
-        Tecnologias
+        <TecnologysIcons />
       </div>
     </div>
   );

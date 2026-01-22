@@ -33,7 +33,7 @@ function ContactSection() {
           className={`flex flex-col mt-[3rem] justify-center items-center text-center gap-3`}
         >
           <div
-            className={`flex items-center justify-center w-[6.6rem] h-[6.6rem] bg-[#3c3730] rounded-2xl`}
+            className={`flex items-center text-[4rem] justify-center w-[6.6rem] h-[6.6rem] bg-[#3c3730] rounded-2xl`}
           >
             {el.contactIcon}
           </div>

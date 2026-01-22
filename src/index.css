@@ -25,8 +25,12 @@ html {
   font-size: 62.5%;
 }
 
-svg {
+/* svg {
   width:  23px;
   height: 23px;
+} */
+
+#teste {
+  font-size: 40px;
 }
 

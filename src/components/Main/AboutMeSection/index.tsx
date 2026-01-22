@@ -1,6 +1,6 @@
 function AboutMeSection() {
   return (
-    <div className={`div-about-me bg-ligthbrown`}>
+    <div className={`div-about-me bg-[#FFE3BF]`}>
       <div className={`flex flex-col items-center`}>
         <h2 className={`font-poppins text-[3.2rem] text-[#232120] m-[1rem]`}>
           ABOUT ME

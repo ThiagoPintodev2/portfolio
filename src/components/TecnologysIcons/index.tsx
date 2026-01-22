@@ -7,7 +7,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function TecnologysIcons() {
   
-  const TecnologysIconsData = [
+  const tecnologysIconsData = [
     {
       id: 1,
       Tecnologys: <FaHtml5 />
@@ -31,8 +31,14 @@ function TecnologysIcons() {
   ]
 
   return (
-    <div>
-      
+    <div className={`flex gap-6`}>
+      {
+        tecnologysIconsData.map((el) => (
+          <div className={`text-[4.5rem]`}>
+            {el.Tecnologys}
+          </div>
+        ))
+      }
     </div>
   )
 }
