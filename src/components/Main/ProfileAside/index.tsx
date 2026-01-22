@@ -20,7 +20,7 @@ function ProfileAside() {
 
   return (
     <div
-      className={`flex flex-col w-[90vw] bg-[#232120] rounded-3xl items-center md:text-[40rem]`}
+      className={`flex flex-col w-[30rem] mt-[5rem] bg-[#232120] m-auto pb-10 rounded-3xl items-center min-[480px]:w-[40rem]`}
     >
       <div>
         <img
@@ -41,7 +41,7 @@ function ProfileAside() {
       </div>
       <div className={`flex gap-1 mt-[2rem] w-[90%] h-[10vh]`}>
         {socialMediaData.map((el, i) => (
-          <Button
+          <Button key={i}
             className={
               i === 0
                 ? `w-[33%] h-[60%] flex items-center justify-center bg-[#1f1d1d] 

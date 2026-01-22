@@ -26,10 +26,10 @@ function ContactSection() {
   return (
     <div
       className={`flex flex-col w-[100%] bg-[#1f1d1d] rounded-3xl text-ligthbrown font-raleway 
-        text-[2rem] shadow-xl/20 border-white/5 border-1 items-center`}
+        text-[1.8rem] shadow-xl/20 border-white/5 border-1 items-center`}
     >
-      {contactData.map((el) => (
-        <div
+      {contactData.map((el, i) => (
+        <div key={i}
           className={`flex flex-col mt-[3rem] justify-center items-center text-center gap-3`}
         >
           <div
@@ -41,7 +41,7 @@ function ContactSection() {
             {el.title}
             <p>{el.value}</p>
           </div>
-          <hr className={`border-t-white/5 w-[85%] mt-[1.8rem]`} />
+          <div className={`w-[22rem] h-[0.1px] bg-ligthbrown opacity-20 mt-[1.8rem] min-[480px]:w-[29rem]`}></div>
         </div>
       ))}
       <Button

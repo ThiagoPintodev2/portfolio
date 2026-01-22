@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './components/Header'
+import Header from './components/Header/Index'
 import Main from './components/Main'
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
     <div className={`bg-bgdark w-full h-[100%]`}>
       <Header />
       <Main />
-      <div>ola</div>
     </div>
   )
 }
