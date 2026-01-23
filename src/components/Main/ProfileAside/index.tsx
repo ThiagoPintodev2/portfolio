@@ -20,13 +20,13 @@ function ProfileAside() {
 
   return (
     <div
-      className={`flex flex-col w-[30rem] mt-[1rem] bg-[#232120] m-auto pb-10 rounded-3xl items-center min-[480px]:w-[40rem]`}
+      className={`flex flex-col w-[30rem] mt-[1rem] bg-[#232120] m-auto pb-10 rounded-3xl items-center min-[480px]:w-[40rem] sm:w-[50rem] md:w-[60rem]`}
     >
       <div>
         <img
           src={profileImage}
           alt="profile image"
-          className={`w-[60%] mt-[-25%] rounded-3xl m-auto`}
+          className={`w-[17rem] mt-[-8rem] rounded-3xl m-auto sm:w-[24rem] sm:mt-[-10rem]`}
         />
       </div>
       <div className={`flex flex-col items-center justify-center`}>
@@ -45,12 +45,12 @@ function ProfileAside() {
             className={
               i === 0
                 ? `w-[33%] h-[60%] flex items-center justify-center bg-[#1f1d1d] 
-                rounded-l-3xl border border-white/5 shadow-xl/20 cursor-pointer`
+                rounded-l-3xl border border-white/5 shadow-xl/20 cursor-pointer md:h-[75%]`
                 : i === 2
                   ? `w-[33%] h-[60%]  flex items-center justify-center bg-[#1f1d1d] 3
-                  rounded-r-3xl border border-white/5 shadow-xl/20 cursor-pointer`
+                  rounded-r-3xl border border-white/5 shadow-xl/20 cursor-pointer md:h-[75%]`
                   : `w-[33%] h-[60%] flex items-center justify-center bg-[#1f1d1d] 
-                  rounded-l-3xl border border-white/5 rounded-md shadow-xl/20 cursor-pointer`
+                  rounded-l-3xl border border-white/5 rounded-md shadow-xl/20 cursor-pointer md:h-[75%]`
             }
           >
            <div>
