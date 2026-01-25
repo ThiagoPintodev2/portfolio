@@ -4,9 +4,9 @@ import AboutMeSection from "./AboutMeSection";
 import ProfileAside from "./ProfileAside";
 
 function Main() {
-  const [windowSize, setWindowSize] = useState<number>(1024);
+  const [windowSize, setWindowSize] = useState<number>(window.innerWidth);
 
-  window.addEventListener("resize", () => {
+    window.addEventListener("resize", () => {
     setWindowSize(window.innerWidth);
   });
 

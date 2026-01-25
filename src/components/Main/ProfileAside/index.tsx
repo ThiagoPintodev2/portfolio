@@ -8,7 +8,7 @@ import { useState } from "react";
 import TecnologysSection from "@/components/TecnologysSection";
 
 function ProfileAside() {
-  const [windowSize, setWindowSize] = useState<number>(1024);
+  const [windowSize, setWindowSize] = useState<number>(window.innerWidth);
 
   window.addEventListener("resize", () => {
     setWindowSize(window.innerWidth);
@@ -86,7 +86,7 @@ function ProfileAside() {
               <img
                 src={profileImage}
                 alt="profile image"
-                className={`w-[17rem] mt-[-8rem] rounded-3xl m-auto sm:w-[24rem] sm:mt-[-10rem] sm:w-[20rem] lg:w-[20rem]`}
+                className={`w-[15rem] mt-[-8rem] rounded-3xl m-auto sm:w-[24rem] sm:mt-[-10rem] sm:w-[24rem] lg:w-[24rem]`}
               /> 
             </div>
             <div className={`flex flex-col items-center justify-center`}>
