@@ -1,7 +1,7 @@
 function AboutMeSection() {
   return (
-    <div className={`div-about-me bg-[#FFE3BF]`}>
-      <div className={`flex flex-col items-center`}>
+    <div className={`div-about-me bg-[#FFE3BF] lg:h-[45%]`}>
+      <div className={`flex flex-col items-center lg:pt-[2rem]`}>
         <h2 className={`font-poppins text-[3.2rem] text-[#232120] m-[1rem]`}>
           ABOUT ME
         </h2>
@@ -9,9 +9,9 @@ function AboutMeSection() {
       </div>
       <div>
         <p
-          className={`font-raleway text-[1.6rem] p-[2rem] text-center text-[#232120]`}
+          className={`font-raleway text-[1.6rem] p-[3rem] text-center text-[#232120] lg:text-[1.7rem] xl:text-[1.8rem]`}
         >
-          Novo na área de tenclogia e em constante evolução. Recentemente, fiz
+          Novo na área de tecnologia e em constante evolução. Recentemente, fiz
           uma transição de carreira de Educação Física para o universo da
           programação. Por que? Porque acredito que a tecnologia é a ferramenta
           mais poderosa para transformar ideias em realidade. Ser um

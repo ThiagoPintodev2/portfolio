@@ -5,7 +5,7 @@ import Main from './components/Main'
 function App() {
 
   return (
-    <div className={`bg-bgdark w-full h-[100%]`}>
+    <div className={`bg-bgdark h-[100%] `}>
       <Header />
       <Main />
     </div>

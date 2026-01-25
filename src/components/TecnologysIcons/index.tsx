@@ -31,10 +31,10 @@ function TecnologysIcons() {
   ]
 
   return (
-    <div className={`flex gap-6 pb-[2rem] md:gap-9`}>
+    <div className={`flex gap-6 pb-[2rem] md:gap-9 xl:pb-0`}>
       {
         tecnologysIconsData.map((el, i) => (
-          <div key={i} className={`text-[4.5rem] sm:text-[5.5rem]`}>
+          <div key={i} className={`text-[4.5rem] sm:text-[5.5rem] xl:text-[7.2rem]`}>
             {el.Tecnologys}
           </div>
         ))

@@ -6,7 +6,7 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 function Header() {
   return (
-    <div className={`flex flex-col items-center pt-[4rem] lg:flex-row lg:items-center lg:justify-around lg:pt-[6rem]`}>
+    <div className={`flex flex-col max-w-[1280px] m-auto items-center pt-[4rem] lg:flex-row lg:items-center lg:justify-around lg:pt-[6rem]`}>
       <div className={`text-ligthbrown font-pacifico text-[2.5rem] sm:text-6xl md:text-7xl lg:text-6xl lg:justify-around`}>
         {"< Hello, I'm Thiago />"}
       </div>
