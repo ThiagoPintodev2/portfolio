@@ -12,7 +12,7 @@ function AboutMeSection() {
           className={`font-raleway text-[1.6rem] p-[3rem] text-center text-[#232120] lg:text-[1.7rem] xl:text-[1.8rem]`}
         >
           Novo na área de tecnologia e em constante evolução. Recentemente, fiz
-          uma transição de carreira de Educação Física para o universo da
+          uma transição de carreira de professor de Educação Física para o universo da
           programação. Por que? Porque acredito que a tecnologia é a ferramenta
           mais poderosa para transformar ideias em realidade. Ser um
           profissional Júnior para mim significa ter 'mente de principiante':
