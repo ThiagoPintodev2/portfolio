@@ -1,4 +1,4 @@
-import TecnologysSection from "../TecnologysSection";
+import TecnologiesSection from "../TecnologiesSection";
 import AboutMeSection from "./AboutMeSection";
 import ProfileAside from "./ProfileAside";
 
@@ -15,7 +15,7 @@ function Main() {
         rounded-3xl w-[80vw] m-auto sm:w-[70vw] md:w-[60vw] lg:w-[65vw] lg:mt-[8rem] lg:h-[100rem]`}
       >
         <AboutMeSection />
-        <TecnologysSection />
+        <TecnologiesSection />
       </div>
     </div>
   );

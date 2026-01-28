@@ -1,6 +1,6 @@
-import TecnologysIcons from "../TecnologysIcons";
+import TecnologiesIcons from "../TecnologiesIcons";
 
-function TecnologysSection() {
+function TecnologieSection() {
   return (
     <div
       className={`div-about-me bg-[#232120] lg:border lg:border-white/5 lg:shadow-xl/20 lg:h-[55%] mb-[2.5rem]`}
@@ -28,10 +28,10 @@ function TecnologysSection() {
         </p>
       </div>
       <div>
-        <TecnologysIcons />
+        <TecnologiesIcons />
       </div>
     </div>
   );
 }
 
-export default TecnologysSection;
+export default TecnologieSection;
