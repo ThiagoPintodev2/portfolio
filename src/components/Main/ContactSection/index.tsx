@@ -50,7 +50,7 @@ function ContactSection() {
       
       <Button
         className={`flex items-center w-[85%] h-[6rem] rounded-2xl bg-ligthbrown mb-[3rem]
-          text-3xl gap-8 font-raleway font-semiboldd cursor-pointer mt-[3rem] text-darkbrown lg:mt-[2rem]`}
+          text-[1.5rem] gap-8 font-raleway font-semiboldd cursor-pointer mt-[3rem] text-darkbrown sm:text-[2rem] lg:mt-[2rem]`}
       >
         <BsDownload />
         Download Resume
