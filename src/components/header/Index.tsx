@@ -10,7 +10,7 @@ function Header() {
     {
       id: 1,
       value: "Home",
-      path: "/home",
+      path: "/",
       icon: <PiHouseLine className={`text-[1.9rem] sm:text-[2rem]`} />,
     },
     {
@@ -47,10 +47,10 @@ function Header() {
             <li
               className={`flex w-[32rem] h-[10rem] justify-center mt-[4rem] rounded-3xl 
           items-center bg-bgdark2 min-[480px]:w-[40rem] gap-8
-          sm:w-[40rem] md:w-[50vw] lg:w-[38rem] lg:mt-0 `}
+          sm:w-[40rem] md:w-[50vw] lg:w-[38rem] lg:mt-0 text-ligthbrown`}
             >
-              {navsDatas.map((nav) => (
-                <NavLink to={nav.path}>
+              {navsDatas.map((nav, i) => (
+                <NavLink key={i} to={nav.path}>
                   <NavComponentesIcons value={nav.value} img={nav.icon} />
                 </NavLink>
               ))}
