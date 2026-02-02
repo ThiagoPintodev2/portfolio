@@ -4,6 +4,7 @@ import ProfileAside from "@/components/ProfileAside";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { MdWorkHistory } from "react-icons/md";
 import WorkskillsSection from "@/components/WorkSkillsSection";
+import SoftSkillsSection from "@/components/SoftSkillsSection";
 
 function Resume() {
 
@@ -57,6 +58,7 @@ function Resume() {
         />
       </div>
       <WorkskillsSection />
+      <SoftSkillsSection />
     </div>
   );}
 
