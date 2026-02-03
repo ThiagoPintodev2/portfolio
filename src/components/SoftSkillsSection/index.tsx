@@ -1,7 +1,7 @@
-import Skills from '../Skills';
+import Skills from "../Skills";
 
 function SoftSkillsSection() {
-      const SoftSkills = [
+  const SoftSkills = [
     "Comunicação",
     "Trabalho em equipe",
     "Comunicação Assertiva",
@@ -10,22 +10,21 @@ function SoftSkillsSection() {
   ];
 
   return (
-    <div
-      className={`flex flex-col h-[100%] gap-[2rem] pb-[1.5rem] mt-[2rem] items-center justify-between bg-[#232120] 
-        rounded-3xl w-[80vw] m-auto sm:w-[70vw] md:w-[60vw] lg:w-[65vw] lg:mt-[8rem] lg:h-[100rem]`}
-    >
+    <div className={`w-[90%] shadow-xl/20 border-white/5 border-1 text-ligthbrown bg-[#1f1d1d] rounded-2xl pb-[1rem] lg:w-[100%]`}>
       <h5
         className={`font-poppins text-[2rem] text-ligthbrown text-center my-[2rem]`}
       >
         Soft Skills
       </h5>
-      <div className={`flex flex-wrap px-[2rem] gap-10 rounded-2xl justify-center`}>
+      <div
+        className={`flex flex-wrap px-[1rem] gap-10 rounded-2xl justify-center`}
+      >
         {SoftSkills.map((skill, i) => (
           <Skills key={i} skill={skill} />
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default SoftSkillsSection
+export default SoftSkillsSection;
