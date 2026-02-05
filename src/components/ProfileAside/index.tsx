@@ -48,7 +48,7 @@ function ProfileAside() {
               key={i}
               className={
                 i === 0
-                  ? `w-[33%] h-[6rem] flex items-center justify-center bg-[#1f1d1d] 
+                  ? `w-[33%] h-[6rem] flex items-center justify-center bg-[#1f1d1d] text-2xl
                   rounded-l-3xl border border-white/5 shadow-xl/20 cursor-pointer md:h-[6rem] md:mb-[2rem]`
                   : i === 2
                     ? `w-[33%] h-[6rem]  flex items-center justify-center bg-[#1f1d1d] 
@@ -57,7 +57,7 @@ function ProfileAside() {
                   rounded-l-3xl border border-white/5 rounded-md shadow-xl/20 cursor-pointer md:h-[6rem]`
               }
             >
-              <div>{el.SocialMediaIcon}</div>
+              <div className="text-3xl">{el.SocialMediaIcon}</div>
             </Button>
           ))}
         </div>

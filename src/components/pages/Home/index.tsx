@@ -1,9 +1,12 @@
 import TecnologiesSection from "../../TecnologiesSection";
 import AboutMeSection from "../../AboutMeSection";
 import ProfileAside from "../../ProfileAside";
+import Header from "@/components/Header";
 
 function Home() {
   return (
+    <div>
+      <Header />
     <div
       className={`flex mt-50 max-w-[1280px] h-[90%] m-auto gap-8 pb-18 max-[1024px]:flex-col`}
     >
@@ -28,6 +31,7 @@ function Home() {
         />
         <TecnologiesSection />
       </div>
+    </div>
     </div>
   );
 }
