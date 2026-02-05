@@ -62,7 +62,7 @@ function Work() {
             <h2
               className={`font-poppins text-[3.2rem] text-ligthbrown m-[1.5rem] opacity-75`}
             >
-              PORTIFOLIO
+              PORTFOLIO
             </h2>
             <hr className={`bg-[#232120] h-[2px] w-[12rem]`} />
             <div
@@ -81,10 +81,10 @@ function Work() {
             <p
               className={`text-ligthbrown font-poppins text-[2rem] mt-[2rem] p-[5rem] text-justify`}
             >
-              Projeto Pomodoro - Totalmente resposnivo. Projeto criado para gerenciar o tempo de estudo
+              Projeto Pomodoro - Totalmente responsivo. Projeto criado para gerenciar o tempo de estudo
               e tarefas utilizando a técnica Pomodoro. Desenvolvido com ReactJS,
               TypeScript, TailwindCSS e shadcn UI. Possui configurações
-              personalizáveis, como tempos de foco e pausa, temas e alarmes.
+              personalizáveis, como tempo de foco e pausa, temas e alarmes.
             </p>
           </div>
         </div>
