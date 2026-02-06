@@ -43,12 +43,17 @@ function Contact() {
             >
               <ContactForm />
             </div>
-            <p
-              className={`text-ligthbrown font-poppins text-[2rem] p-[4rem] text-justify`}
+            <div
+              className={`flex flex-col w-[90%] rounded-3xl items-center border-1 
+                shadow-xl/40 border-white/5 lg:text-2xl`}
             >
-              Estou sempre aberto a discutir novos projetos, oportunidades no
-              mundo da tecnologia e parcerias.
-            </p>
+              <p
+                className={`text-ligthbrown font-poppins text-[2rem] p-[4rem] text-justify`}
+              >
+                Estou sempre aberto a discutir novos projetos, oportunidades no
+                mundo da tecnologia e parcerias.
+              </p>
+            </div>
           </div>
         </div>
       </main>
