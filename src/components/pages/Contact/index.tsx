@@ -20,7 +20,7 @@ function Contact() {
             <h2
               className={`font-poppins text-[3.2rem] text-ligthbrown m-[1.5rem] opacity-75`}
             >
-              CONTATO
+              CONTATOssssssssssssssssssssssssssss
             </h2>
             <hr className={`bg-[#232120] h-[2px] w-[12rem]`} />
             <div className={`flex w-[90%] h-[16rem] gap-8 mt-[3rem]`}>
