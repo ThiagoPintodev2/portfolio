@@ -22,11 +22,11 @@
 }
 
 .p-about-me {
-  @apply font-raleway text-[1.5rem] p-[4rem] text-center lg:text-[1.8rem] xl:text-[2rem] text-center opacity-75
+  @apply font-raleway text-[1.5rem] p-[4rem] text-center lg:text-[1.8rem] xl:text-[2rem] text-center opacity-75;
 }
 
 body,
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
-
