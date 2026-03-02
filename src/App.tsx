@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Resume from "./components/pages/Resume";
 import Work from "./components/pages/works";
 import Contact from "./components/pages/Contact";
@@ -13,6 +13,7 @@ function App() {
         <Route path="/resumo" element={<Resume />} />
         <Route path="/projetos" element={<Work />} />
         <Route path="/contato" element={<Contact />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>
   );
