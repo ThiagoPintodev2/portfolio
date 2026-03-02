@@ -51,7 +51,7 @@ function ContactSection() {
       ))}
 
       <Button
-        className={`flex items-center w-[85%] h-[6rem] rounded-2xl bg-ligthbrown mb-[3rem] border-white/5 lg:shadow-xl/20
+        className={`flex items-center w-[85%] h-[6rem] rounded-2xl bg-ligthbrown mb-[3rem] border-white/5 lg:shadow-xl/20 
           text-[1.5rem] gap-8 font-raleway font-semiboldd cursor-pointer mt-[3rem] text-darkbrown sm:text-[2rem] lg:mt-[2rem]`}
       >
         <BsDownload />

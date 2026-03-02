@@ -39,9 +39,9 @@ function Header() {
       className={`flex flex-col max-w-[1280px] m-auto items-center pt-[4rem] lg:flex-row lg:items-center lg:justify-between`}
     >
       <div
-        className={`text-ligthbrown font-pacifico text-[2.5rem] sm:text-6xl md:text-7xl lg:text-6xl lg:justify-around`}
+        className={`animate-bounce text-ligthbrown text-[2.2rem] font-extralight sm:text-5xl md:text-6xl lg:text-7xl lg:justify-around`}
       >
-        {"< Hello, I'm Thiago />"}
+        {"< Thiago  | Front-end Developer />"}
       </div>
       <nav>
         <ul
