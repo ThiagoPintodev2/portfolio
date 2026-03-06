@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+* Thiago Pinto — Portfólio Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio de desenvolvedor Front-End.
+Este projeto foi criado para apresentar meus projetos, habilidades e evolução na área de desenvolvimento web.
 
-Currently, two official plugins are available:
+Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este portfólio reúne alguns dos projetos que desenvolvi durante meus estudos em programação, com foco em interfaces modernas, responsivas e boa experiência do usuário.
 
-## React Compiler
+O objetivo é demonstrar minhas habilidades com tecnologias do ecossistema front-end e minha evolução como desenvolvedor.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tecnologias Utilizadas:
 
-## Expanding the ESLint configuration
+- HTML5
+- JavaScript
+- TypeScript
+- React
+- TailwindCSS
+- shadcn/ui
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Funcionalidades:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Página inicial apresentando meu perfil
+- Seção de projetos
+- Layout responsivo para diferentes dispositivos
+- Navegação entre páginas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Como Rodar o Projeto?
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Clonar o repositório
+git clone https://github.com/thiagopintodev2/portfolio.git
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Entrar na pasta
+cd portfolio
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Instalar dependências
+npm install
+
+# Rodar o projeto
+npm run dev
+
+Objetivo
+
+Este projeto faz parte da minha jornada de transição para a área de desenvolvimento de software, com foco em Front-End
+
+Estou buscando oportunidades como Desenvolvedor Front-End Júnior para continuar aprendendo e contribuindo em projetos reais.
+
+
+Melhorias Futuras:
+
+- Integração com backend (autenticação real)
+- Persistência de dados no banco de dados
+- Histórico de ciclos concluídos
+
+
+Autor
+
+Thiago Pinto
+Desenvolvedor Front-End Júnior em transição para Fullstack.
