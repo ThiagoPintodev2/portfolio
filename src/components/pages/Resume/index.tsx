@@ -115,7 +115,7 @@ function Resume() {
 
           <div
             className={`flex flex-col w-[90%] justify-center items-center h-[25%] gap-[2rem] mb-[2rem] mt-[4rem]
-              bg-[#232120] rounded-3xl w-[80vw] sm:w-[90%] lg:w-[100%] lg:flex-row lg:items-end lg:pb-[2rem] lg:gap-[3rem]`}
+              bg-[#232120] rounded-3xl w-[80vw] sm:w-[90%] lg:w-[100%] lg:flex-row lg:items-stretch lg:pb-[2rem] lg:gap-[3rem]`}
           >
             <WorkskillsSection />
             <SoftSkillsSection />

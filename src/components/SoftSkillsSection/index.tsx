@@ -13,7 +13,7 @@ function SoftSkillsSection() {
   return (
     <div
       className={`w-[100%] shadow-xl/20 border-white/5 border-1 text-ligthbrown 
-    bg-[#1f1d1d] rounded-2xl pb-[1rem] md:w-[100%] lg:w-[45%] xl:h-[100%]`}
+    bg-[#1f1d1d] rounded-2xl pb-[1rem] md:w-[100%] lg:w-[45%]`}
     >
       <h5
         className={`font-poppins text-[2rem] text-ligthbrown text-center my-[2rem]`}
