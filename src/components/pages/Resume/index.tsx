@@ -40,9 +40,9 @@ const experience: ResumeProps[] = [
     place: "MM Treinamento de Atletas LTDA - Rj",
   },
   {
-    year: "01/2022 – 12/2024",
-    title: "- Professor de Futebol de Areia",
-    place: "MM Treinamento de Atletas LTDA - Rj",
+    year: "03/2026 – Atual",
+    title: "- Desenvolvedor Front-End Trainee",
+    place: "Sitana Unipessoal, Lda. - Lisboa",
   },
 ];
 
