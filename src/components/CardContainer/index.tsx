@@ -3,7 +3,7 @@ import type { CardContainerProps } from "./CardContainer";
 function CardConatiner({ icon, title1, title2, title3 }: CardContainerProps) {
   return (
     <div
-      className={`flex flex-col w-[90%] h-[17vh] shadow-xl/20 mb-[2rem]
+      className={`flex flex-col w-[90%] min-h-[17vh] shadow-xl/20 mb-[2rem]
         border-white/5 border-1 text-ligthbrown bg-[#1f1d1d] rounded-2xl lg:w-[90%]`}
     >
       <div className={`flex items-center pl-[2rem]`}>

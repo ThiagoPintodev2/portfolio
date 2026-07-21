@@ -19,14 +19,12 @@ function Home() {
         >
           <AboutMeSection
             id={"home"}
-            text={`Novo na área de tecnologia e em constante evolução. Recentemente, fiz
-          uma transição de carreira de Educação Física para o universo da
-          programação. Por que? Porque acredito que a tecnologia é a ferramenta
-          mais poderosa para transformar ideias em realidade. Estou sempre disposto
-           a aprender, aceitar feedbacks e testar novas
-          formas de chegar a um resultado. Dedico meus dias a aperfeiçoar minhas
-          habilidades. Estou pronto para somar em uma equipe que valorize a
-          vontade de crescer e o compromisso com a entrega.`}
+            text={`Possuo experiênciaprática com
+              React, JavaScript, TypeScript, HTML, CSS, APIs REST, WebSockets e Git/GitHub,
+              atuandono desenvolvimento e manutenção de aplicações web.
+              Experiência profissional no desenvolvimento e evolução da plataforma open-source Diversa21,
+              contribuindo para a implementação de funcionalidades, integração entre Front-End e Back-End,
+              desenvolvimento de recursos em tempo real, investigação e correção de bugs e melhorias de UI/UX.`}
             title={"Sobre mim"}
           />
           <TecnologiesSection />

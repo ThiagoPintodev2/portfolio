@@ -19,8 +19,9 @@ function TecnologieSection() {
           através de código limpo e interfaces modernas. Utilizo HTML, CSS e
           JavaScript como base para criar estruturas semânticas e eficientes.
           Com o React, desenvolvo aplicações modulares e inteligentes, elevando
-          o nível de interatividade. No visual, domino o Tailwind CSS criando
-          layouts personalizados com rapidez. Uso biblioteca shadcn/ui para
+          o nível de interatividade. APIs REST para comunicação entre o front-end
+          e o back-end. No visual, domino o Tailwind CSS junto ao shadcn/ui criando
+          layouts personalizados com rapidez. Uso também biblioteca ant design para
           garantir componentes de alta qualidade técnica e estética. Estou
           sempre explorando como essas ferramentas podem trabalhar juntas para
           resolver problemas e proporcionar ao usuário final, uma ótima

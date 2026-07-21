@@ -22,10 +22,10 @@ function ProfileAside() {
   ];
 
   return (
-    <aside>
+    <aside className={`lg:contents`}>
       <div
-        className={`flex flex-col w-[80vw] mt-[8rem] h-[100rem] bg-[#232120] m-auto pb-10 rounded-3xl items-center 
-                   sm:w-[70vw] sm:h-[102rem] md:w-[60vw] md:h-[105rem] lg:w-[35vw] xl:w-[40rem] lg:h-[100rem]`}
+        className={`flex flex-col w-[80vw] mt-[8rem] min-h-[100rem] bg-[#232120] mx-auto pb-10 rounded-3xl items-center 
+                   sm:w-[70vw] sm:min-h-[102rem] md:w-[60vw] md:min-h-[105rem] lg:w-[35vw] lg:self-stretch xl:w-[40rem]`}
       >
         <div>
           <img

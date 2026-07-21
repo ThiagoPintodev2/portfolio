@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { SiShadcnui } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+import { SiAntdesign } from "react-icons/si";
 
 const tecnologiesIconsData = [
   { id: 1, Tecnologys: <SiHtml5 /> },
@@ -12,6 +13,7 @@ const tecnologiesIconsData = [
   { id: 4, Tecnologys: <SiShadcnui /> },
   { id: 5, Tecnologys: <RiTailwindCssFill /> },
   { id: 6, Tecnologys: <SiTypescript /> },
+  { id: 7, Tecnologys: <SiAntdesign /> },
 ];
 
 const iconsLoop = [...tecnologiesIconsData, ...tecnologiesIconsData];

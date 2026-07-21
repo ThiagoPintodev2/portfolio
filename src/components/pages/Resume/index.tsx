@@ -39,6 +39,11 @@ const experience: ResumeProps[] = [
     title: "- Professor de Futebol de Areia",
     place: "MM Treinamento de Atletas LTDA - Rj",
   },
+  {
+    year: "01/2022 – 12/2024",
+    title: "- Professor de Futebol de Areia",
+    place: "MM Treinamento de Atletas LTDA - Rj",
+  },
 ];
 
 
@@ -77,11 +82,11 @@ function Resume() {
     <div>
       <Header />
       <main
-        className={`flex mt-50 max-w-[1280px] h-[90%] m-auto gap-8 pb-18 max-[1024px]:flex-col`}
+        className={`flex mt-50 max-w-[1280px] h-[90%] mx-auto gap-8 pb-18 items-stretch max-[1024px]:flex-col`}
       >
         <ProfileAside />
         <div
-          className={`flex flex-col h-[100%] items-center justify-between bg-[#232120] rounded-3xl m-auto w-[80vw] sm:w-[70vw] md:w-[60vw] lg:mt-[8rem] lg:w-[65vw] lg:h-[100rem] xl:w-[65vw]`}
+          className={`flex flex-col h-[100%] items-center justify-between bg-[#232120] rounded-3xl mx-auto w-[80vw] sm:w-[70vw] md:w-[60vw] lg:mt-[8rem] lg:w-[65vw] lg:min-h-[100rem] xl:w-[65vw]`}
         >
           <header className={`flex flex-col items-center`}>
             <h2
