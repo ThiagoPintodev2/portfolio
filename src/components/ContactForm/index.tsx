@@ -10,7 +10,6 @@ function ContactForm() {
     email: "",
     message: "",
   });
-  console.log(isSubmited.name);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

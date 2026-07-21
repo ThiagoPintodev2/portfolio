@@ -7,15 +7,13 @@ function Home() {
   return (
     <div>
       <Header />
-      <div
-        className={`flex mt-50 max-w-[1280px] h-[90%] m-auto gap-8 pb-18 max-[1024px]:flex-col`}
+      <main
+        className={`flex w-[95vw] max-w-[1440px] mt-50 h-[90%] mx-auto gap-8 pb-18 items-stretch max-[1024px]:flex-col`}
       >
-        <div>
-          <ProfileAside />
-        </div>
+        <ProfileAside />
         <div
-          className={`flex flex-col h-[100%] gap-[2rem] items-center justify-between bg-[#232120] 
-        rounded-3xl w-[80vw] m-auto sm:w-[70vw] md:w-[60vw] lg:w-[65vw] lg:mt-[8rem] lg:h-[100rem]`}
+          className={`flex flex-col gap-[2rem] items-center justify-between bg-[#232120] 
+        rounded-3xl w-[80vw] mx-auto sm:w-[70vw] md:w-[60vw] lg:flex-1 lg:mt-[8rem] lg:min-h-[100rem]`}
         >
           <AboutMeSection
             id={"home"}
@@ -29,7 +27,7 @@ function Home() {
           />
           <TecnologiesSection />
         </div>
-      </div>
+      </main>
     </div>
   );
 }

@@ -36,7 +36,7 @@ function Header() {
 
   return (
     <header
-      className={`flex flex-col max-w-[1280px] m-auto items-center pt-[4rem] lg:flex-row lg:items-center lg:justify-between`}
+      className={`flex flex-col w-[95vw] max-w-[1440px] mx-auto items-center pt-[4rem] lg:flex-row lg:items-center lg:justify-between`}
     >
       <div
         className={`animate-bounce text-ligthbrown text-[2.2rem] font-extralight sm:text-5xl md:text-6xl lg:text-7xl lg:justify-around`}

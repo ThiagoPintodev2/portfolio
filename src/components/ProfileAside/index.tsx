@@ -25,7 +25,7 @@ function ProfileAside() {
     <aside className={`lg:contents`}>
       <div
         className={`flex flex-col w-[80vw] mt-[8rem] min-h-[100rem] bg-[#232120] mx-auto pb-10 rounded-3xl items-center 
-                   sm:w-[70vw] sm:min-h-[102rem] md:w-[60vw] md:min-h-[105rem] lg:w-[35vw] lg:self-stretch xl:w-[40rem]`}
+                   sm:w-[70vw] sm:min-h-[102rem] md:w-[60vw] md:min-h-[105rem] lg:w-[30%] lg:shrink-0 lg:self-stretch`}
       >
         <div>
           <img
