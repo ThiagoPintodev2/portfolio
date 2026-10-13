@@ -17,13 +17,34 @@ function Home() {
         >
           <AboutMeSection
             id={"home"}
-            text={`Possuo experiênciaprática com
-              React, JavaScript, TypeScript, HTML, CSS, APIs REST, WebSockets e Git/GitHub,
-              atuandono desenvolvimento e manutenção de aplicações web.
-              Experiência profissional no desenvolvimento e evolução da plataforma open-source Diversa21,
-              contribuindo para a implementação de funcionalidades, integração entre Front-End e Back-End,
-              desenvolvimento de recursos em tempo real, investigação e correção de bugs e melhorias de UI/UX.`}
             title={"Sobre mim"}
+            text={
+              <>
+                <p>
+                  Sou desenvolvedor Front-End com experiência prática no
+                  desenvolvimento e na manutenção de aplicações web.
+                </p>
+                <ul className="mt-[2rem] list-disc space-y-[1.2rem] pl-[2.4rem] text-left">
+                  <li>
+                    <strong>Experiência:</strong> atuação no desenvolvimento e
+                    na evolução da plataforma open-source Diversa21.
+                  </li>
+                  <li>
+                    <strong>Desenvolvimento:</strong> criação e manutenção de
+                    interfaces com React e JavaScript.
+                  </li>
+                  <li>
+                    <strong>Integração:</strong> consumo de APIs REST e
+                    utilização de WebSockets para funcionalidades em tempo
+                    real.
+                  </li>
+                  <li>
+                    <strong>Qualidade:</strong> investigação e correção de
+                    bugs, melhorias de UI/UX e colaboração com a equipe.
+                  </li>
+                </ul>
+              </>
+            }
           />
           <TecnologiesSection />
         </div>
