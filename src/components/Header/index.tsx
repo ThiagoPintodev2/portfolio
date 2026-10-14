@@ -41,7 +41,7 @@ function Header() {
       <div
         className={`animate-bounce text-ligthbrown text-[2.2rem] font-extralight sm:text-5xl md:text-6xl lg:text-7xl lg:justify-around`}
       >
-        {"< Thiago  | Front-end Developer />"}
+        {"< Thiago  | Full-Stack Developer />"}
       </div>
       <nav>
         <ul

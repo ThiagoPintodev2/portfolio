@@ -42,7 +42,7 @@ function ProfileAside() {
           <p
             className={`font-poppins text-[1.9rem] mt-[1rem] text-ligthbrown font-extralight`}
           >
-            Front End Developer
+            Full Stack Developer
           </p>
         </div>
         <div className={`flex w-[100%]`}>

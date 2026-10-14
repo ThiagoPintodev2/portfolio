@@ -41,7 +41,7 @@ const experience: ResumeProps[] = [
   },
   {
     year: "03/2026 – Atual",
-    title: "- Desenvolvedor Front-End Trainee",
+    title: "- Desenvolvedor Full Stack Trainee",
     place: "Sitana Unipessoal, Lda. - Lisboa",
   },
 ];

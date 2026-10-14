@@ -9,8 +9,11 @@ function WorkskillsSection() {
     "React",
     "Node.js",
     "Tailwindcss",
+    "Ant Design",
+    "Shadcn UI",
     "Git",
     "GitHub",
+    "webSocket"
   ];
 
   return (

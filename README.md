@@ -1,13 +1,13 @@
-* Thiago Pinto — Portfólio Front-End
+* Thiago Pinto — Portfólio Full stack
 
-Bem-vindo ao meu portfólio de desenvolvedor Front-End.
+Bem-vindo ao meu portfólio de desenvolvedor Full stack.
 Este projeto foi criado para apresentar meus projetos, habilidades e evolução na área de desenvolvimento web.
 
 Sobre o projeto
 
 Este portfólio reúne alguns dos projetos que desenvolvi durante meus estudos em programação, com foco em interfaces modernas, responsivas e boa experiência do usuário.
 
-O objetivo é demonstrar minhas habilidades com tecnologias do ecossistema front-end e minha evolução como desenvolvedor.
+O objetivo é demonstrar minhas habilidades com tecnologias do ecossistema full stack e minha evolução como desenvolvedor.
 
 Tecnologias Utilizadas:
 
@@ -17,6 +17,7 @@ Tecnologias Utilizadas:
 - React
 - TailwindCSS
 - shadcn/ui
+
 
 Funcionalidades:
 
@@ -42,9 +43,9 @@ npm run dev
 
 Objetivo
 
-Este projeto faz parte da minha jornada de transição para a área de desenvolvimento de software, com foco em Front-End
+Este projeto faz parte da minha jornada de transição para a área de desenvolvimento de software, com foco em Full stack
 
-Estou buscando oportunidades como Desenvolvedor Front-End Júnior para continuar aprendendo e contribuindo em projetos reais.
+Estou buscando oportunidades como Desenvolvedor Full stack para continuar aprendendo e contribuindo em projetos reais.
 
 
 Melhorias Futuras:
@@ -57,4 +58,4 @@ Melhorias Futuras:
 Autor
 
 Thiago Pinto
-Desenvolvedor Front-End Júnior em transição para Fullstack.
+Desenvolvedor Fullstack.

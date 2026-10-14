@@ -21,7 +21,7 @@ function Home() {
             text={
               <>
                 <p>
-                  Sou desenvolvedor Front-End com experiência prática no
+                  Sou desenvolvedor Full Stack com experiência prática no
                   desenvolvimento e na manutenção de aplicações web.
                 </p>
                 <ul className="mt-[2rem] list-disc space-y-[1.2rem] pl-[2.4rem] text-left">
