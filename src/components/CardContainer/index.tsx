@@ -1,6 +1,6 @@
 import type { CardContainerProps } from "./CardContainer";
 
-function CardConatiner({ icon, title1, title2, title3 }: CardContainerProps) {
+function CardConatiner({ title1, title2, title3 }: CardContainerProps) {
   return (
     <div
       className={`flex flex-col w-[90%] min-h-[125px] shadow-xl/20 
