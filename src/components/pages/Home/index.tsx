@@ -12,7 +12,7 @@ function Home() {
       >
         <ProfileAside />
         <div
-          className={`flex flex-col gap-[2rem] items-center justify-between bg-[#232120] 
+          className={`flex flex-col gap-[2rem] items-center justify-evenly bg-[#232120] 
         rounded-3xl w-[80vw] mx-auto sm:w-[70vw] md:w-[60vw] lg:flex-1 lg:mt-[8rem] lg:min-h-[100rem]`}
         >
           <AboutMeSection

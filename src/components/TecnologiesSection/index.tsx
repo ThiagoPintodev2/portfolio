@@ -1,4 +1,4 @@
-import TecnologiesIcons from "../TecnologiesIcons";
+import WorkskillsSection from "../WorkSkillsSection";
 
 function TecnologieSection() {
   return (
@@ -42,8 +42,8 @@ function TecnologieSection() {
           </ul>
         </div>
       </div>
-      <div>
-        <TecnologiesIcons />
+      <div className="flex w-full justify-center pb-[2rem]">
+        <WorkskillsSection />
       </div>
     </div>
   );

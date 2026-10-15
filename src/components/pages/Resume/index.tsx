@@ -1,79 +1,42 @@
-import React from "react";
-import CardContainer from "@/components/CardContainer";
+import type { ComponentType, ReactNode } from "react";
 import ProfileAside from "@/components/ProfileAside";
-import { RiGraduationCapFill } from "react-icons/ri";
-import { MdWorkHistory } from "react-icons/md";
-import { HiOutlineArrowRight } from "react-icons/hi";
-import WorkskillsSection from "@/components/WorkSkillsSection";
 import SoftSkillsSection from "@/components/SoftSkillsSection";
-import type { ResumeProps } from "./resume";
 import Header from "@/components/Header";
+import {
+  HiOutlineAcademicCap,
+  HiOutlineBriefcase,
+  HiOutlineCode,
+  HiOutlineFolder,
+} from "react-icons/hi";
 
-const education: ResumeProps[] = [
-  {
-    year: "2008 - 2013",
-    title: "- Licenciatura em Educação Física",
-    place: "Universidade Estácio de Sá",
-  },
-  {
-    year: "2014 - 2018",
-    title: "- Bacharelado em Educação Física",
-    place: "Universidade Estácio de Sá",
-  },
-];
-
-const experience: ResumeProps[] = [
-  {
-    year: " 01/2016 – 04/2024",
-    title: "- Professor de Educação Física",
-    place:
-      " Secretaria Municipal de Esporte e Lazer Prefeitura de Armação dos Búzios - Rj",
-  },
-  {
-    year: "11/2016 – 08/2020",
-    title: "- Professor de Musculação",
-    place: "Academia Workout Búzios Fitness LTDA - Rj",
-  },
-  {
-    year: "01/2022 – 12/2024",
-    title: "- Professor de Futebol de Areia",
-    place: "MM Treinamento de Atletas LTDA - Rj",
-  },
-  {
-    year: "03/2026 – Atual",
-    title: "- Desenvolvedor Full Stack Trainee",
-    place: "Sitana Unipessoal, Lda. - Lisboa",
-  },
-];
-
-
-function Section({
+function ResumeCard({
   Icon,
   title,
-  items,
+  highlight,
+  children,
 }: {
-  Icon: React.ComponentType<{ size?: number; className?: string }>;
+  Icon: ComponentType<{ size?: number; className?: string }>;
   title: string;
-  items: ResumeProps[];
+  highlight: string;
+  children: ReactNode;
 }) {
   return (
-    <section
-      className={`flex flex-col w-[100%] items-center md:flex-col md:w-[100%]`}
+    <article
+      className="w-[90%] rounded-2xl border-1 border-white/5 bg-[#1f1d1d] px-[2rem] py-[2rem] shadow-xl/20"
     >
-      <div className={`flex gap-4 my-[1.5rem]`}>
-        <Icon size={30} className={`text-ligthbrown`} />
-        <h3 className={`text-white font-poppins text-[2rem]`}>{title}</h3>
+      <div className="mb-[1.2rem] flex items-center gap-3">
+        <Icon size={22} className="text-ligthbrown" />
+        <h3 className="font-poppins text-[1.8rem] font-semibold text-ligthbrown">
+          {title}
+        </h3>
       </div>
-      {items.map((el, i) => (
-        <CardContainer
-          key={i}
-          icon={<HiOutlineArrowRight size={20} />}
-          title1={el.year}
-          title2={el.title}
-          title3={el.place}
-        />
-      ))}
-    </section>
+      <div className="font-raleway text-[1.6rem] leading-relaxed text-ligthbrown">
+        {children}
+      </div>
+      <p className="mt-[1.2rem] font-raleway text-[1.6rem] text-ligthbrown">
+        <span className="font-semibold text-ligthbrown">Destaque:</span> {highlight}
+      </p>
+    </article>
   );
 }
 
@@ -91,33 +54,81 @@ function Resume() {
           <header className={`flex flex-col items-center`}>
             <h2
               id={"resumo"}
-              className={`font-poppins text-[3.2rem] text-ligthbrown m-[1.5rem] opacity-75`}
+              className={`font-poppins text-[3.2rem] text-ligthbrown my-[1.5rem] opacity-75`}
             >
               RESUMO
             </h2>
-            <hr className={`bg-[#232120] h-[2px] w-[12rem]`} />
           </header>
 
-          <div
-            className={`flex items-start w-[100%] lg:mt-[2rem] max-[1024px]:flex-col`}
-          >
-            <Section
-              Icon={RiGraduationCapFill}
-              title="Educação"
-              items={education}
-            />
-            <Section
-              Icon={MdWorkHistory}
-              title="Experiência"
-              items={experience}
-            />
+          <div className="flex w-full flex-col items-center gap-[2rem] pb-[2rem]">
+            <ResumeCard
+              Icon={HiOutlineCode}
+              title="Experiência em Tecnologia"
+              highlight="experiência profissional atual."
+            >
+              <p>03/2026 – Atual</p>
+              <p className="mt-1 font-semibold text-ligthbrown">
+                Desenvolvedor Full Stack — Estágio | Sitana Unipessoal, Lda
+              </p>
+              <p className="mt-2">
+                Desenvolvimento e manutenção da plataforma Diversa21, com React,
+                JavaScript, Netuno e integração com APIs.
+              </p>
+            </ResumeCard>
+
+            <ResumeCard
+              Icon={HiOutlineFolder}
+              title="Projetos de Desenvolvimento"
+              highlight="prática técnica e iniciativa própria."
+            >
+              <ul className="list-disc space-y-2 pl-[1.8rem]">
+                <li>
+                  <span className="font-semibold text-ligthbrown">Projeto Arts:</span>{" "}
+                  aplicação em desenvolvimento com React, Node.js, Express e
+                  PostgreSQL. - Em Desenvolvimento.
+                </li>
+                <li>
+                  <span className="font-semibold text-ligthbrown">Pomodoro:</span>{" "}
+                  aplicação de produtividade com temporizador e recursos de
+                  personalização.
+                </li>
+              </ul>
+            </ResumeCard>
+
+            <ResumeCard
+              Icon={HiOutlineAcademicCap}
+              title="Formação Acadêmica"
+              highlight="formação superior concluída."
+            >
+              <ul className="list-disc space-y-2 pl-[1.8rem]">
+                <li>
+                  Licenciatura em Educação Física — Universidade Estácio de Sá.
+                </li>
+                <li>
+                  Bacharelado em Educação Física — Universidade Estácio de Sá.
+                </li>
+              </ul>
+            </ResumeCard>
+
+            <ResumeCard
+              Icon={HiOutlineBriefcase}
+              title="Experiência Profissional Anterior"
+              highlight="trajetória profissional e competências transferíveis."
+            >
+              <ul className="list-disc space-y-2 pl-[1.8rem]">
+                <li>
+                  Professor de Educação Física — Prefeitura de Armação dos
+                  Búzios.
+                </li>
+                <li>Professor de Musculação — Workout Búzios Fitness.</li>
+                <li>Professor de Futebol de Areia — MM Treinamento de Atletas.</li>
+              </ul>
+            </ResumeCard>
           </div>
 
           <div
-            className={`flex flex-col w-[90%] justify-center items-center h-[25%] gap-[2rem] mb-[2rem] mt-[4rem]
-              bg-[#232120] rounded-3xl w-[80vw] sm:w-[90%] lg:w-[100%] lg:flex-row lg:items-stretch lg:pb-[2rem] lg:gap-[3rem]`}
+            className={`flex flex-col w-full justify-center items-center gap-[2rem] bg-[#232120] rounded-3xl my-[2rem] mb-[2rem]`}
           >
-            <WorkskillsSection />
             <SoftSkillsSection />
           </div>
         </div>
